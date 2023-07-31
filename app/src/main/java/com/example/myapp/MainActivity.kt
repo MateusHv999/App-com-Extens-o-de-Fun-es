@@ -32,8 +32,7 @@ class MainActivity : AppCompatActivity() {
         when {
             numClicks % 2 == 0 -> layout?.background = getDrawable(R.mipmap.fundo_1)
             numClicks % 3 == 0 -> layout?.background = getDrawable(R.mipmap.fundo_2)
-            numClicks % 4 == 0 -> layout?.background = getDrawable(R.mipmap.fundo_3)
-            else -> layout?.background = null
+            else -> layout?.background = getDrawable(R.mipmap.fundo_3)
         }
     }
 }
